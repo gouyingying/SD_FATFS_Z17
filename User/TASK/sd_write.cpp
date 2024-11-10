@@ -28,14 +28,13 @@ void sd_write(void const * argument)
     else {
         // usart_printf("SD card mount failed\r\n");
     }
-    fatTest_Write_Init("imudata.txt");//初始化文件操作
+    fatTest_Init("num.txt");
 
     for(;;)
     {
         current = xTaskGetTickCount();
 
-        fatTest_WriteTXTFile("imudata.txt", 3,(uint32_t)(imuyaw * 100), (uint32_t)(imupitch * 100), (uint32_t)(imuroll * 100));
-        fatTest_WriteTXTFile("imudata.txt", 5,(uint32_t)(imuyaw * 100), (uint32_t)(imupitch * 100), (uint32_t)(imuroll * 100), (uint32_t)(imupitch * 100), (uint32_t)(imuroll * 100));
+        fatTest_WriteTXTFile(new_filename, 3,(uint32_t)(imuyaw * 100), (uint32_t)(imupitch * 100), (uint32_t)(imuroll * 100));
 
         vTaskDelayUntil(&current, 500 / portTICK_RATE_MS);
     }

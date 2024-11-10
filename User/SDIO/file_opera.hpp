@@ -17,13 +17,13 @@ void fatTest_WriteBinFile(TCHAR* filename, uint32_t pointCount, uint32_t sampFre
 void fatTest_ReadTXTFile(TCHAR* filename);
 void fatTest_ReadBinFile(TCHAR* filename);
 void fatTest_GetFileInfo(TCHAR* filename);
-
+void fatTest_Init(TCHAR* filename);
 DWORD fat_GetFatTimeFromRTC();
 
 class file_opera {
 
 };
 
-
+extern char new_filename[20];
 
 #endif //FILE_OPERA_HPP

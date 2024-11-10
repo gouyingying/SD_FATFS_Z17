@@ -3,7 +3,8 @@
 //
 
 #include "file_opera.hpp"
-#include <stdarg.h> // 包含可变参数相关的头文件
+#include <stdarg.h>
+#include <stdlib.h>
 #include "usart.h"
 
 void fatTest_GetDiskInfo() {
@@ -123,13 +124,59 @@ void fatTest_Write_Init(TCHAR* filename) {
     }
     f_close(&file);
 }
-
-
-
-
-void fatTest_WriteTXTFile(TCHAR* filename, int num, ...) {
+char new_filename[20]; // 假设文件名不超过20字节，包括扩展名
+void fatTest_Init(TCHAR* filename) {
     FIL file;
-    FRESULT res = f_open(&file, filename, FA_WRITE | FA_OPEN_APPEND); // 打开文件并追加
+    FRESULT res = f_open(&file, filename,  FA_WRITE|FA_READ);
+    if (res == FR_OK) {
+        // usart_printf("File opened Ok\n");
+    }
+    else {
+        // usart_printf("File open failed\n");
+    }
+    FRESULT resl = f_lseek(&file, f_size(&file)-1);
+    if (res == FR_OK && resl == FR_OK) {
+        char value_str[10]; // 假设最大读取的字符数
+        UINT bw = 0;
+
+        // 读取字符数据
+        f_read(&file, value_str, sizeof(value_str) - 1, &bw); // 最后一个字符留给 '\0'
+        value_str[bw] = '\0'; // 添加字符串结束符
+
+        // 将字符型数据转换为 int 型
+        int value = atoi(value_str);
+
+        // 输出转换后的整数
+        usart_printf("%d\r\n", value);
+        value++;
+        f_printf(&file, "\n%d",  value); // 写入到文件
+
+
+        // 创建新文件名
+
+        sprintf(new_filename, "DATA%d.txt", value); // 使用 Value 创建新的 TXT 文件名
+
+        // 创建新的 TXT 文件
+        FIL new_file;
+        res = f_open(&new_file, new_filename, FA_CREATE_ALWAYS | FA_WRITE);
+        if (res == FR_OK) {
+            f_close(&new_file); // 关闭新文件
+        } else {
+            // 处理新文件打开失败的错误
+            usart_printf("Failed to create file %s\n", new_filename);
+        }
+    } else {
+
+    }
+    f_close(&file);
+}
+
+
+
+FIL file_car;
+void fatTest_WriteTXTFile(TCHAR* filename, int num, ...) {
+
+    FRESULT res = f_open(&file_car, filename, FA_WRITE | FA_OPEN_APPEND); // 打开文件并追加
     if (res != FR_OK) {
         // 文件打开失败时的处理
         return;
@@ -142,11 +189,11 @@ void fatTest_WriteTXTFile(TCHAR* filename, int num, ...) {
     // 写入数据
     for (int i = 0; i < num; i++) {
         uint32_t value = va_arg(args, uint32_t); // 按照顺序获取参数
-        f_printf(&file, "%d  ",  value); // 写入到文件
+        f_printf(&file_car, "%d  ",  value); // 写入到文件
     }
-    f_printf(&file, "\n"); // 写入到文件
+    f_printf(&file_car, "\n"); // 写入到文件
     va_end(args); // 清理可变参数列表
-    f_close(&file); // 关闭并保存文件
+    f_close(&file_car); // 关闭并保存文件
 }
 
 
