@@ -88,4 +88,14 @@ CMakeFiles/SDcard.elf.dir/User/SDIO/file_opera.cpp.obj: \
  e:\stm32_clion_toolchain\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\stdio.h \
  E:\Clion_Prpject\SDcard\Core\Inc/rtc.h \
  E:\Clion_Prpject\SDcard\Core\Inc/main.h \
+ e:\stm32_clion_toolchain\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\c++\10.3.1\stdlib.h \
+ e:\stm32_clion_toolchain\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\c++\10.3.1\cstdlib \
+ e:\stm32_clion_toolchain\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\c++\10.3.1\arm-none-eabi\thumb\v7e-m+fp\hard\bits\c++config.h \
+ e:\stm32_clion_toolchain\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\c++\10.3.1\arm-none-eabi\thumb\v7e-m+fp\hard\bits\os_defines.h \
+ e:\stm32_clion_toolchain\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\c++\10.3.1\arm-none-eabi\thumb\v7e-m+fp\hard\bits\cpu_defines.h \
+ e:\stm32_clion_toolchain\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\c++\10.3.1\pstl\pstl_config.h \
+ e:\stm32_clion_toolchain\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\stdlib.h \
+ e:\stm32_clion_toolchain\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\machine\stdlib.h \
+ e:\stm32_clion_toolchain\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\alloca.h \
+ e:\stm32_clion_toolchain\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\c++\10.3.1\bits\std_abs.h \
  E:\Clion_Prpject\SDcard\Core\Inc/usart.h

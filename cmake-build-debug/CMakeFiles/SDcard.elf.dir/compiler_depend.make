@@ -2203,15 +2203,25 @@ CMakeFiles/SDcard.elf.dir/User/SDIO/file_opera.cpp.obj: E:/Clion_Prpject/SDcard/
   E:/Clion_Prpject/SDcard/User/SDIO/file_opera.hpp \
   E:/STM32_Clion_Toolchain/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/_ansi.h \
   E:/STM32_Clion_Toolchain/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/_newlib_version.h \
+  E:/STM32_Clion_Toolchain/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/alloca.h \
+  E:/STM32_Clion_Toolchain/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v7e-m+fp/hard/bits/c++config.h \
+  E:/STM32_Clion_Toolchain/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v7e-m+fp/hard/bits/cpu_defines.h \
+  E:/STM32_Clion_Toolchain/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v7e-m+fp/hard/bits/os_defines.h \
+  E:/STM32_Clion_Toolchain/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/c++/10.3.1/bits/std_abs.h \
+  E:/STM32_Clion_Toolchain/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/c++/10.3.1/cstdlib \
+  E:/STM32_Clion_Toolchain/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/c++/10.3.1/pstl/pstl_config.h \
+  E:/STM32_Clion_Toolchain/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/c++/10.3.1/stdlib.h \
   E:/STM32_Clion_Toolchain/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/_default_types.h \
   E:/STM32_Clion_Toolchain/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/_endian.h \
   E:/STM32_Clion_Toolchain/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/_types.h \
   E:/STM32_Clion_Toolchain/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/endian.h \
   E:/STM32_Clion_Toolchain/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/ieeefp.h \
+  E:/STM32_Clion_Toolchain/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/stdlib.h \
   E:/STM32_Clion_Toolchain/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/types.h \
   E:/STM32_Clion_Toolchain/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/newlib.h \
   E:/STM32_Clion_Toolchain/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/stdint.h \
   E:/STM32_Clion_Toolchain/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/stdio.h \
+  E:/STM32_Clion_Toolchain/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/stdlib.h \
   E:/STM32_Clion_Toolchain/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/_intsup.h \
   E:/STM32_Clion_Toolchain/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/_pthreadtypes.h \
   E:/STM32_Clion_Toolchain/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/_sigset.h \
@@ -2746,6 +2756,8 @@ E:/STM32_Clion_Toolchain/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-
 
 E:/STM32_Clion_Toolchain/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/lock.h:
 
+E:/STM32_Clion_Toolchain/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/c++/10.3.1/stdlib.h:
+
 E:/STM32_Clion_Toolchain/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/reent.h:
 
 E:/STM32_Clion_Toolchain/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/sched.h:
@@ -2854,10 +2866,14 @@ E:/Clion_Prpject/SDcard/User/SDIO/file_opera.cpp:
 
 E:/Clion_Prpject/SDcard/User/SDIO/file_opera.hpp:
 
+E:/STM32_Clion_Toolchain/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/c++/10.3.1/bits/std_abs.h:
+
+E:/STM32_Clion_Toolchain/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/c++/10.3.1/cstdlib:
+
+E:/STM32_Clion_Toolchain/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/c++/10.3.1/pstl/pstl_config.h:
+
 E:/Clion_Prpject/SDcard/User/SDIO/sd_io.cpp:
 
 E:/Clion_Prpject/SDcard/User/SDIO/sd_io.hpp:
 
 E:/Clion_Prpject/SDcard/User/TASK/sd_write.cpp:
-
-E:/STM32_Clion_Toolchain/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/c++/10.3.1/pstl/pstl_config.h:
